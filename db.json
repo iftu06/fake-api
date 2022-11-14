@@ -1,0 +1,88 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "comments": [
+        {
+          "id": 1,
+          "body": "some comment1"
+        },
+        {
+          "id": 2,
+          "body": "some comment2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Full-Stack",
+      "author": "Iftekhar"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment2",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Smartphones & Tablets",
+      "image": "images/popular_1.png"
+    },
+    {
+      "id": 2,
+      "name": "Computers & Laptops",
+      "image": "images/popular_2.png"
+    },
+    {
+      "id": 3,
+      "name": "Gadgets",
+      "image": "images/popular_3.png"
+    },
+    {
+      "id": 4,
+      "name": "Video Games & Consoles",
+      "image": "images/popular_4.png"
+    },
+    {
+      "id": 5,
+      "name": "Accessories",
+      "image": "images/popular_5.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nokia 3310(2017)",
+      "image": "images/new_6.jpg",
+      "price": 379,
+      "description": "some"
+    },
+    {
+      "id": 2,
+      "name": "Huawei MediaPad",
+      "image": "images/new_8.jpg",
+      "price": 225,
+      "description": "some"
+    },
+    {
+      "id": 3,
+      "name": "Huawei MediaPad",
+      "image": "images/new_1.jpg",
+      "price": 225,
+      "description": "some"
+    }
+  ]
+}
